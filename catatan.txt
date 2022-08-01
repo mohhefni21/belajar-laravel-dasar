@@ -1,0 +1,4 @@
+n + 1 problems
+ini akan terasa ketika aplikasi sudah banyak pengguna, dan datanya banyak. yang dimana akan menghambat oprasional aplikasi. misalnya pada menampilkan posts oke kita menquery post yang dilakukan posts namun ketika ada relasional maka setiap kita foreach 1 data maka kita kan menquery dua tabel yaitu user dan category, bayangkan ketika 40 data post maka kita akan menquery 80X setiap kali di foreach
+disini akan menggunakan library clockwork laravel yang akan dihubungkan ke eksitansi browser yaitu berapakali kita melakukan query
+maka akan lakukan eager loading yang sudah disediakan oleh laravel
